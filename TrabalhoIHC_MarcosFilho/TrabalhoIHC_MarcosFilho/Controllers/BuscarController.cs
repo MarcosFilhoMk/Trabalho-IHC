@@ -8,7 +8,8 @@ namespace TrabalhoIHC_MarcosFilho.Controllers
 {
     public class BuscarController : Controller
     {
-        // GET: Buscar
+        //
+        // GET: Buscar/
         public ActionResult Index()
         {
             return View();

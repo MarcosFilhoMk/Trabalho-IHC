@@ -8,7 +8,8 @@ namespace TrabalhoIHC_MarcosFilho.Controllers
 {
     public class CadastroController : Controller
     {
-        // GET: Cadastro
+        //
+        // GET: Cadastro/
         public ActionResult Index()
         {
             return View();

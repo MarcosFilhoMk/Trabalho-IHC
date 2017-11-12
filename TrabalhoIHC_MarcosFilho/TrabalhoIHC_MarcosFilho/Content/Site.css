@@ -15,4 +15,11 @@ select,
 textarea {
     max-width: 280px;
 }
+/*configuração da tabela Estacionamentos*/
+body{
+    table-layout:fixed;
+    tab-size:30;
+    text-size-adjust:auto;
+}
+
 

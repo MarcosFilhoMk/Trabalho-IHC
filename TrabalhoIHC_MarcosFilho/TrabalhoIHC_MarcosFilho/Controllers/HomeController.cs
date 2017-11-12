@@ -14,5 +14,10 @@ namespace TrabalhoIHC_MarcosFilho.Controllers
         {
             return View();
         }
+
+        public ActionResult NovoHome()
+        {
+            return View();
+        }
     }
 }

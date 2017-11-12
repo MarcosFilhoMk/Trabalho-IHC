@@ -128,6 +128,7 @@
     <Content Include="Views\Buscar\Index.cshtml" />
     <Content Include="Views\CadastroCompleto\Index.cshtml" />
     <Content Include="Views\SaidaDeVeiculo\Index.cshtml" />
+    <Content Include="Views\Home\NovoHome.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -97,3 +97,36 @@ C:\Users\jarbas loreno\Documents\Trabalho 7° Perildo Ancelmo\Trabalho-IHC\Traba
 C:\Users\jarbas loreno\Documents\Trabalho 7° Perildo Ancelmo\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\obj\Debug\TrabalhoIHC_MarcosFilho.csprojResolveAssemblyReference.cache
 C:\Users\jarbas loreno\Documents\Trabalho 7° Perildo Ancelmo\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\obj\Debug\TrabalhoIHC_MarcosFilho.dll
 C:\Users\jarbas loreno\Documents\Trabalho 7° Perildo Ancelmo\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\obj\Debug\TrabalhoIHC_MarcosFilho.pdb
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\csc.exe
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\vbc.exe
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\TrabalhoIHC_MarcosFilho.dll.config
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\TrabalhoIHC_MarcosFilho.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\TrabalhoIHC_MarcosFilho.pdb
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Helpers.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Mvc.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Razor.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Webpages.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Razor.xml
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Webpages.xml
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Helpers.xml
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\bin\System.Web.Mvc.xml
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\obj\Debug\TrabalhoIHC_MarcosFilho.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\obj\Debug\TrabalhoIHC_MarcosFilho.dll
+C:\Users\User\Documents\GitHub\Trabalho-IHC\TrabalhoIHC_MarcosFilho\TrabalhoIHC_MarcosFilho\obj\Debug\TrabalhoIHC_MarcosFilho.pdb

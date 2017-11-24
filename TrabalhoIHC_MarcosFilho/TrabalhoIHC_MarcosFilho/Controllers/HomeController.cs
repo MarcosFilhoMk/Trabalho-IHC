@@ -10,12 +10,12 @@ namespace TrabalhoIHC_MarcosFilho.Controllers
     {
         //
         // GET: Home/
-        public ActionResult Sisvec()
+        public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Inicio()
+        public ActionResult NovoHome()
         {
             return View();
         }

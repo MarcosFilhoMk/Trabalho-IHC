@@ -6,16 +6,10 @@ using System.Web.Mvc;
 
 namespace TrabalhoIHC_MarcosFilho.Controllers
 {
-    public class HomeController : Controller
+    public class InformacoesController : Controller
     {
-        //
-        // GET: Home/
-        public ActionResult Sisvec()
-        {
-            return View();
-        }
-
-        public ActionResult Inicio()
+        // GET: Informacoes
+        public ActionResult Index()
         {
             return View();
         }

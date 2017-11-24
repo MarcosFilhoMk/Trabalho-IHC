@@ -12,76 +12,97 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <title>SISVEC</title>
-    <style>
-        #customers {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#customers td, #customers th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: white;
-    </style>
 
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+    <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/Home/Sisvec">SISVEC</a>
+                <a class="navbar-brand" href="~/Views/Home/Index.cshtml">SISVEC</a>
             </div>
-            
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/Informacoes/Index">Sobre Nós</a></li>
+                <li class="active"><a href="~/Views/Home/Index.cshtml">Inicio</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tipo Serviço <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="~/Views/Cadastro/Index.cshtml">Cadastro Mensal</a></li>
+                        <li><a href="~/Views/CadastroCompleto/Index.cshtml">Cadastro Diario</a></li>
+                        <li><a href="~/Views/SaidaDeVeiculo/Index.cshtml">Sa4ida Veículo</a></li>
+                    </ul>
+                </li>
+                <li><a href="~/Views/CadastroCompleto/Index.cshtml">Cadastro Mensal</a></li>
             </ul>
-
-                <form class="navbar-form navbar-left">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <div class="input-group-btn">
-                            <button class="btn btn-default" type="submit">
-                                <i class="glyphicon glyphicon-search"></i>
-                            </button>
-                        </div>
+            <form class="navbar-form navbar-left">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
                     </div>
-                </form>
-
-</div>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Inscrevar-se</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="jumbotron text-center">
         <h1>Sistema de Estacionamento Rotativo de Veiculo</h1>
-        <a href="/Home/Inicio">Click Aqui Para Iniciar</a><br />
-      <h3>Aqui seu veículo esta seguro</h3>
+        <p>Aqui seu veiculo esta seguro</p>
     </div>
     <center>
-        <h2> As Novas Tecnologias: Vantagens e Desvantagens </h2>
+        <h2> As Novas Tecnologia: vantagens e desvantagens </h2>
     </center>
     <div class="container">
         <div class="row">
             <div class="col-sm-4"> 
+                <center>
+                    <h3>Estacionamento 01</h3>
+
+                    <table border="1">
+                        <tr><td>Vaga 01</td> <td></td> <td>Vaga 11</td></tr>
+                        <tr><td>Vaga 02</td> <td></td> <td>Vaga 12</td></tr>
+                        <tr><td>Vaga 03</td> <td></td> <td>Vaga 13</td></tr>
+                        <tr><td>Vaga 04</td> <td></td> <td>Vaga 14</td></tr>
+                        <tr><td>Vaga 05</td> <td></td> <td>Vaga 15</td></tr>
+                        <tr><td>Vaga 06</td> <td></td> <td>Vaga 16</td></tr>
+                        <tr><td>Vaga 07</td> <td></td> <td>Vaga 17</td></tr>
+                        <tr><td>Vaga 08</td> <td></td> <td>Vaga 18</td></tr>
+                        <tr><td>Vaga 09</td> <td></td> <td>Vaga 19</td></tr>
+                        <tr><td>Vaga 10</td> <td></td> <td>Vaga 20</td></tr>
+                    </table><br></br>
+
+                </center>
 
                 <h4>Notícias em tempo real</h4><br></br>
                 <p>Não se pode esperar que o computador faça tudo sozinho. Ele fornece-nos informações e recursos, cabendo ao professor planear a aplicação dos mesmos na sala de aula. A pressão constante em relação ao uso da informática torna-se cada vez mais evidente em todas as áreas e isso não é diferente na educação. A todo momento os professores sentem que quem não for capaz de usar a informática como instrumento de ensino-aprendizagem está fora do contexto do mercado de trabalho actual. É peremptório mudar este estado de coisas. </p>
                 <p>A evolução das tecnologias de informação e da comunicação impõe uma redefinição do espaço de trabalho. Hoje é mais rápido enviar um e-mail do que uma carta por correio. Cada vez menos será o trabalhador a deslocar-se ao trabalho, e cada vez mais será o trabalho que virá até ao trabalhador. Trabalhar a partir de casa parece ser cada vez mais a hipótese acertada numa altura em que a flexibilidade se tornou num dos assuntos na ordem do dia. O mundo assiste hoje à integração e à implementação de novos meios que permitem uma maior rapidez e eficácia na troca de informação.</p>
             
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4"> 
+
+                <center>      
+                           
+                <h3>Estacionamento 02</h3>
+                <table border="1">
+                    <tr><td>Vaga 01</td> <td></td> <td>Vaga 11</td></tr>
+                    <tr><td>Vaga 02</td> <td></td> <td>Vaga 12</td></tr>
+                    <tr><td>Vaga 03</td> <td></td> <td>Vaga 13</td></tr>
+                    <tr><td>Vaga 04</td> <td></td> <td>Vaga 14</td></tr>
+                    <tr><td>Vaga 05</td> <td></td> <td>Vaga 15</td></tr>
+                    <tr><td>Vaga 06</td> <td></td> <td>Vaga 16</td></tr>
+                    <tr><td>Vaga 07</td> <td></td> <td>Vaga 17</td></tr>
+                    <tr><td>Vaga 08</td> <td></td> <td>Vaga 18</td></tr>
+                    <tr><td>Vaga 09</td> <td></td> <td>Vaga 19</td></tr>
+                    <tr><td>Vaga 10</td> <td></td> <td>Vaga 20</td></tr>
+                </table><br></br>
+
+                </center>
 
                 <h4>Notícias em tempo real</h4><br></br>
                 <p>O acesso a redes dentro e fora das empresas, a videoconferência em rede local, a utilização partilhada de documentos em tempo real e a redistribuição de chamadas telefónicas são alguns exemplos destas novas tecnologias.</p>
@@ -89,6 +110,24 @@
                 
             </div>
             <div class="col-sm-4">
+
+                <center>
+
+                <h3>Estacionamento 03</h3>
+                <table border="1">
+                    <tr><td>Vaga 01</td> <td></td> <td>Vaga 11</td></tr>
+                    <tr><td>Vaga 02</td> <td></td> <td>Vaga 12</td></tr>
+                    <tr><td>Vaga 03</td> <td></td> <td>Vaga 13</td></tr>
+                    <tr><td>Vaga 04</td> <td></td> <td>Vaga 14</td></tr>
+                    <tr><td>Vaga 05</td> <td></td> <td>Vaga 15</td></tr>
+                    <tr><td>Vaga 06</td> <td></td> <td>Vaga 16</td></tr>
+                    <tr><td>Vaga 07</td> <td></td> <td>Vaga 17</td></tr>
+                    <tr><td>Vaga 08</td> <td></td> <td>Vaga 18</td></tr>
+                    <tr><td>Vaga 09</td> <td></td> <td>Vaga 19</td></tr>
+                    <tr><td>Vaga 10</td> <td></td> <td>Vaga 20</td></tr>
+                </table><br></br>
+
+                </center>
 
                 <h4>Notícias em tempo real</h4><br></br>
                 <p>Hoje existem diversos “sites” na Internet que disponibilizam periódicos electrónicos. Neste cenário, encontramos uma grande variedade de interfaces, que, por vezes, comprometem os resultados das pesquisas, uma vez que as dificuldades encontradas pelos usuários para realizar uma pesquisa bibliográfica são elementos desenregelantes e geradores de buscas ineficientes ou mesmo incorrectas. É compreensível que vários factores concorram para que haja tamanha diversidade e mesmo mudança de interface nos sites de busca bibliográfica, pois nessa era globalizada em que estamos inseridos, tudo parece mudar muito rapidamente. A própria Internet aparece como factor desencadeante principal de tantas mudanças, onde se percebe quase que uma “anarquia controlada”. Os sites acompanham as tendências tanto de design como de objectivos específicos.</p>

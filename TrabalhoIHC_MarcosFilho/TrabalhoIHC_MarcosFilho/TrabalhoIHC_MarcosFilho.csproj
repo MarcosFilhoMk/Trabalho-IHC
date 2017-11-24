@@ -108,8 +108,6 @@
     <Compile Include="Controllers\CadastroCompletoController.cs" />
     <Compile Include="Controllers\CadastroController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ImprimirRelatorioController.cs" />
-    <Compile Include="Controllers\InformacoesController.cs" />
     <Compile Include="Controllers\SaidaDeVeiculoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -121,7 +119,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Sisvec.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
@@ -130,9 +128,7 @@
     <Content Include="Views\Buscar\Index.cshtml" />
     <Content Include="Views\CadastroCompleto\Index.cshtml" />
     <Content Include="Views\SaidaDeVeiculo\Index.cshtml" />
-    <Content Include="Views\Home\Inicio.cshtml" />
-    <Content Include="Views\Informacoes\Index.cshtml" />
-    <Content Include="Views\ImprimirRelatorio\Index.cshtml" />
+    <Content Include="Views\Home\NovoHome.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

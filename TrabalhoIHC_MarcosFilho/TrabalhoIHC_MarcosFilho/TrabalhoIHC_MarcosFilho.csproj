@@ -109,7 +109,6 @@
     <Compile Include="Controllers\CadastroController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SaidaDeVeiculoController.cs" />
-    <Compile Include="Controllers\TipoDeServicoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -130,7 +129,6 @@
     <Content Include="Views\CadastroCompleto\Index.cshtml" />
     <Content Include="Views\SaidaDeVeiculo\Index.cshtml" />
     <Content Include="Views\Home\NovoHome.cshtml" />
-    <Content Include="Views\TipoDeServico\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

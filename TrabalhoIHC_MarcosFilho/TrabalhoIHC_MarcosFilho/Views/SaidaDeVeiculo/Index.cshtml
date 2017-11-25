@@ -13,6 +13,26 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <title>SISVEC</title>
+    <style>
+        .modal footer{
+    text-align: center;
+    padding: 0!important;
+    }
+
+    .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+    }
+
+    .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    }
+    </style>
 
 </head>
 
@@ -22,11 +42,11 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/Home/Sisvec">SISVEC</a>
+                    <a style="color:#008B00" class="navbar-brand" href="/Home/Sisvec">SISVEC</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/Home/Inicio">INICIO</a></li>
-                    <li><a href="/SaidaDeVeiculo/Index">SAÍDA DE VEÍCULO</a></li>                    
+                    <li><a style="color:#FF0000" class="navbar-brand" href="/Home/Inicio">INICIO</a></li>
+                    <li><a style="color:#FFFF00" href="/SaidaDeVeiculo/Index">SAÍDA VEICULO</a></li>
                 </ul>
 
                 <form class="navbar-form navbar-left">
@@ -44,7 +64,7 @@
         </nav>
     </div>
 
-    <h2>Saida de Veículo</h2>
+    <h2 class="text-center">Saida de Veículo</h2><br />
 
 
     <div class="col-md-5 col-md-offset-3">
@@ -52,7 +72,7 @@
         <input type="text" class="form-control" placeholder="Placa ou CPF" autofocus />
     </div>
 
-    <!-- MMOTAL COMEÇA AQUI-->
+    <!-- MOTAL COMEÇA AQUI-->
 
     <div class="container">
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Confirmar saída</button>
@@ -63,25 +83,27 @@
             <div class="modal-dialog  ">
 
                 <!-- Modal content-->
+              <div class="col-md-5 text-center">          
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Informações sobre o carro/cliente</h4>
+                        <p class="modal-title">INFORMAÇÕES SOBRE O CARRO/CLIENTE</p>
                     </div>
                     <div class="modal-body">
                         <p>INFORMAÇÕES SOBRE O CLIENTE E A SAIDA</p>
                     </div>
                     <div class="modal-footer">
+                       <center>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Imprimir</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                       </center>
                     </div>
                 </div>
+              </div>
 
             </div>
         </div>
     </div>
-
-
 
     <div>
         <hr>

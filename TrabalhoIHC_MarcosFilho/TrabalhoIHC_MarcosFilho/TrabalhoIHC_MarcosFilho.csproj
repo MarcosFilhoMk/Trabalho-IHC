@@ -107,6 +107,7 @@
     <Compile Include="Controllers\BuscarController.cs" />
     <Compile Include="Controllers\CadastroCompletoController.cs" />
     <Compile Include="Controllers\CadastroController.cs" />
+    <Compile Include="Controllers\CadastrosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ImprimirRelatorioController.cs" />
     <Compile Include="Controllers\InformacoesController.cs" />
@@ -133,6 +134,7 @@
     <Content Include="Views\Home\Inicio.cshtml" />
     <Content Include="Views\Informacoes\Index.cshtml" />
     <Content Include="Views\ImprimirRelatorio\Index.cshtml" />
+    <Content Include="Views\Cadastros\Cadastros.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Cadastro Diário";
     Layout = "~/Views/shared/_layout.cshtml";
 }
 
@@ -75,21 +75,21 @@
             <input type="text" class="form-control" placeholder="Vaga do Veículo:" autofocus />
         </div><p></p><br />
 
-        <div class="btn-group-lg">
-            <button class="btn btn-default">SALVAR INFORMAÇÕES</button>
+        <div class="btn-group-lg">            
+            <button class="btn btn-default" type="button" onclick="location.href='@Url.Action("Index","Cadastro")'">SALVAR INFORMAÇÕES</button>
         </div><p></p><br />
         <div class="btn-group-lg">
-            <button class="btn btn-default">CANCELAR</button>
+            <button class="btn btn-default" type="button" onclick="location.href='@Url.Action("Inicio","Home")'">CANCELAR</button>            
         </div><P></P><br />
         <div class="btn-group-lg">
-            <button class="btn btn-default">FINALIZAR CADASTRO</button>
+            <button class="btn btn-default" type="button" onclick="location.href='@Url.Action("Inicio","Home")'">FINALIZAR CADASTRO</button>
         </div><P></P><br />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
                 
     </div>
     <hr>
     <footer>
         <center>
-            <p>&copy; 2017 - Todos os direitos reservados | Desenvolvimento: JMDBI</p>
+            <p>&copy; 2017 - Todos os Direitos Reservados | Desenvolvimento: JMDBI - Versão 1.0</p>
         </center>
     </footer>
     

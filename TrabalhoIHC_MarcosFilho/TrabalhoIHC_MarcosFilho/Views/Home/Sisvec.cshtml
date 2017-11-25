@@ -1,6 +1,6 @@
 ﻿@model TrabalhoIHC_MarcosFilho.Controllers.HomeController
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "SISVEC";
 }
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -22,7 +22,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a style="color:#008B00" class="navbar-brand" href="/Home/Sisvec">SISVEC</a>
+                <a style="color:#008B00" class="navbar-brand" href="/Home/Sisvec">SISVEC</a>                
             </div>
             <ul class="nav navbar-nav">
                 <li><a style="color:#FF0000" class="navbar-brand" href="/Home/Inicio">INICIO</a></li>
@@ -44,8 +44,8 @@
 
         <div class="jumbotron text-center">
             <h1>Sistema de Estacionamento Rotativo de Veiculo</h1>
-            <div class="btn-group-lg">
-                <button class="btn btn-danger">SEJAM BEM VINDOS AO SISVEC</button>
+            <div class="btn-group-lg">                
+                <button class="btn btn-danger" type="button" onclick="location.href='@Url.Action("Inicio","Home")'">SEJAM BEM VINDOS AO SISVEC</button>
             </div><p></p>
             <div>
                 <h3>Aqui seu veículo esta seguro</h3>
@@ -58,7 +58,7 @@
     <hr>
     <footer>
         <center>
-            <p>&copy; 2017 - Todos os direitos reservados | Desenvolvimento: JMDBI</p>
+            <p>&copy; 2017 - Todos os Direitos Reservados | Desenvolvimento: JMDBI - Versão 1.0</p>
         </center>
     </footer>
 </div>

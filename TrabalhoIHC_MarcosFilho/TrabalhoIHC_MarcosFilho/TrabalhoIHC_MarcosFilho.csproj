@@ -112,6 +112,7 @@
     <Compile Include="Controllers\ImprimirRelatorioController.cs" />
     <Compile Include="Controllers\InformacoesController.cs" />
     <Compile Include="Controllers\SaidaDeVeiculoController.cs" />
+    <Compile Include="Controllers\TipoDeServicoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -135,6 +136,7 @@
     <Content Include="Views\Informacoes\Index.cshtml" />
     <Content Include="Views\ImprimirRelatorio\Index.cshtml" />
     <Content Include="Views\Cadastros\Cadastros.cshtml" />
+    <Content Include="Views\TipoDeServico\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

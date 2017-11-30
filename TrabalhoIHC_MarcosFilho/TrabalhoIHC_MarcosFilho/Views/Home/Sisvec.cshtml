@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>SISVEC</title>
     <style>
-      
+      h6{
+          color:blue;
+      }
+      h5{
+          color:#008B00;
+      }
     </style>
     
 </head>
@@ -41,52 +44,68 @@
         </div>
     </nav>
 
-   
-    <div class="row">
+    <div class="container">
+        <center>
+            <div class="col-sm-6 wrapper-relative wrapper-banner">
+                <div class="banner">
+                    <div class="description">
 
-        <div class="col-md-8">
-            <h2>SISVEC</h2>
-            <h3>Sistema de Estacionamento de Veículos</h3>
+                        <h2>SISVEC</h2>
+                        <h3>Sistema de Estacionamento de Veículos</h3>
 
-            <img width="700px" height="500px" src="http://www.gazetadopovo.com.br/ra/mega/Pub/GP/p3/2012/07/22/Automoveis/Imagens/peugeot_quicksilver_2207doze.jpg" class="img-responsive" style="margin: auto" /><br />
-            <p align="left">
+                        <img width="700px" height="500px" src="http://www.gazetadopovo.com.br/ra/mega/Pub/GP/p3/2012/07/22/Automoveis/Imagens/peugeot_quicksilver_2207doze.jpg" class="img-responsive" style="margin: auto" /><br />
+                        <p align="left">
 
-                <div class="btn-group-lg">
-                    <button class="btn btn-danger" type="button" onclick="location.href='@Url.Action("Inicio","Home")'">SEJAM BEM VINDOS AO SISVEC</button>
+                            <div class="btn-group-lg">
+                                <button class="btn btn-danger" type="button" onclick="location.href='@Url.Action("Inicio","Home")'">SEJAM BEM VINDOS AO SISVEC</button>
+                            </div>
+
+                            <div>
+                                <h3>Aqui seu veículo esta seguro</h3>
+                            </div>
+                    </div>
                 </div>
+            </div><br><br><br><br><br>
+        </center>
 
-                <div>
-                    <h3>Aqui seu veículo esta seguro</h3>
+        <div class="col-md-6 wrapper-relative ">
+            <form class="access" method="post"
+                  action="/login">
+                <center>
+                <div class="heading">
+                    <img width="150px" height="100px" src="http://www.gazetadopovo.com.br/ra/mega/Pub/GP/p3/2012/07/22/Automoveis/Imagens/peugeot_quicksilver_2207doze.jpg" class="img-responsive" style="margin: auto" /">
+                    <h5>SISVEC</h5>
+
+                    <h6 class="slogan">Sistema de Estacionamento de Veículos</h6>
                 </div>
-        </div>
+                    </center>
+                <div class="inputs">
+                    <center>
+                    <div class="form-group relative">
+                        <i class="fa fa-envelope-o prefix"></i>
+                        <input name="usuario" type="text" class="validate form-control"
+                               value="" placeholder="E-mail">
 
-        <div class="col-md-4">
-            <form id="login" method="post" onsubmit="return false();">
-                <div class="row">
-                    <div class="col-md-6">
-                        <label class="control-label" for="usuario">Usuário</label>
                     </div>
-                    <div class="col-md-6">
-                        <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Digite o seu nome de usuário" />
+                    <div class="form-group relative">
+                        <i class="fa fa-user prefix"></i>
+                        <input type="password" name="senha" class="validate form-control" placeholder="Senha">
                     </div>
-                    </div>
-                <div class="row">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label class="control-label" for="senha">Senha</label>
-                        </div>
-                        <div class="col-md-6">
-                            <input class="form-control" type="password" name="senha" id="senha" placeholder="Entre com sua senha" />
-                        </div>
-                    </div>
-                    </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <label class="form-control label"></label>
+                        </center>
 
-                        <input class="form-control" type="button" onclick="efetuarLogin()" value="Entrar" />
-                        <input class="form-control" type="reset" value="Limpar" />
+                    <div class="options">
+                        <a href="/login/esqueci-minha-senha"
+                           class="pull-right" data-toggle="modal" data-target="#forgot">Esqueci minha senha</a>
+                        <a href="/adesao/cadastro"
+                           class="pull-left">Criar uma nova conta</a>
                     </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                    <center>
+                    <div class="more">
+                        Deseja fazer adesão do Sistema de Estacionamento de Veículos? <a href="/adesao">Inscreva-se já</a>
+                    </div>
+                        </center>
                 </div>
             </form>
            

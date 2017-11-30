@@ -41,19 +41,57 @@
         </div>
     </nav>
 
-        <div class="jumbotron text-center">
-            <h1>Sistema de Estacionamento Rotativo de Veiculo</h1>
+   
+    <div class="row">
+
+        <div class="col-md-8">
+            <h2>SISVEC</h2>
+            <h3>Sistema de Estacionamento de Veículos</h3>
 
             <img width="700px" height="500px" src="http://www.gazetadopovo.com.br/ra/mega/Pub/GP/p3/2012/07/22/Automoveis/Imagens/peugeot_quicksilver_2207doze.jpg" class="img-responsive" style="margin: auto" /><br />
-            <p align="center">
+            <p align="left">
+
                 <div class="btn-group-lg">
                     <button class="btn btn-danger" type="button" onclick="location.href='@Url.Action("Inicio","Home")'">SEJAM BEM VINDOS AO SISVEC</button>
                 </div>
-                            
+
                 <div>
                     <h3>Aqui seu veículo esta seguro</h3>
                 </div>
-         </div>
+        </div>
+
+        <div class="col-md-4">
+            <form id="login" method="post" onsubmit="return false();">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="control-label" for="usuario">Usuário</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Digite o seu nome de usuário" />
+                    </div>
+                    </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="control-label" for="senha">Senha</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" type="password" name="senha" id="senha" placeholder="Entre com sua senha" />
+                        </div>
+                    </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="form-control label"></label>
+
+                        <input class="form-control" type="button" onclick="efetuarLogin()" value="Entrar" />
+                        <input class="form-control" type="reset" value="Limpar" />
+                    </div>
+                </div>
+            </form>
+           
+        </div>
+    </div>
 </body>
 
 <div>
